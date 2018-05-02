@@ -4,6 +4,9 @@ import "../zeppelin/contracts/token/BasicToken.sol";
  * @title StakedToken Token
  * @dev Token that can staked and have the stake registered
  */
+
+ /* Challenges, get a list of all accounts and their associated balances */
+ 
 contract StakedToken is BasicToken {
 
     event Stake(address indexed staker, uint256 value);
